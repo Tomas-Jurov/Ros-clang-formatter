@@ -17,7 +17,7 @@ inputs:
   commit-message:
     description: 'The commit message used when changes need to be committed'
     required: false
-    default: 'style: Applied ROS C++ Style Guide'
+    default: 'formatted code'
 runs:
   using: 'docker'
   image: 'Dockerfile'
